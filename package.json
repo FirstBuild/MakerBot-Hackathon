@@ -1,0 +1,24 @@
+{
+  "name": "hack-temp-dooropen-snappy",
+  "version": "0.0.1",
+  "description": "For IoT World hack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MylesCaley/hack-temp-dooropen-snappy"
+  },
+  "keywords": [
+    "fun",
+    "ge",
+    "appliances"
+  ],
+  "author": "Myles Caley",
+  "license": "MIT",
+  "homepage": "https://github.com/MylesCaley/hack-temp-dooropen-snappy",
+  "dependencies": {
+    "firebase": "~2.2.3"
+  }
+}

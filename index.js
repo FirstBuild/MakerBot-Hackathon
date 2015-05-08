@@ -16,6 +16,9 @@ ref.authWithPassword(credentials, function(err, auth) {
     ref.child('users').child('google:105724342149087020351/devices/chillhubs/dummy/sensors').on('value', function(snapshot) {
       console.log(JSON.stringify(snapshot.val(), null, 2));
     });
+    ref.child('users').child('google:105724342149087020351/devices/chillhubs/dummy2/sensors').on('value', function(snapshot) {
+      console.log(JSON.stringify(snapshot.val(), null, 2));
+    });
   }
   else {
     console.error('Failed to login with credentials!');

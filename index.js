@@ -26,11 +26,11 @@ ref.authWithPassword(credentials, function(err, auth) {
     ref.child('users').child('google:105724342149087020351/devices/chillhubs/dummy/beerbanks/072b3293-d637-4f53-a273-edf8c7711d17').on('value', function(snapshot) {
       console.log("beer ( " + Date() + "):" + JSON.stringify(snapshot.val(), null, 2));
       beerinfos = snapshot.val();
-      if (beerinfos.time_remaining == 0 && beerinfos.beer_sensor ==0)
+      if (beerinfos.time_remaining == 0 && beerinfos.beer_sensor ==1)
       {
 	console.log("BEER STOLEN!!!!!");
       }
-      else if (beerinfos.time_remaining > 0 && beerinfos.beer_sensor ==0)
+      else if (beerinfos.time_remaining > 0 && beerinfos.beer_sensor ==1)
       {
         console.log("BEER AUTHORIZED. ENJOY");
       }

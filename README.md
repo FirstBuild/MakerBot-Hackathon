@@ -1,6 +1,4 @@
-# hack-temp-dooropen-snappy
-IoT World Hack
-
+# Milk% Left Hack
 
 install:
 

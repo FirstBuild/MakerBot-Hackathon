@@ -2,6 +2,7 @@
 var firebase_email = 'snappy@firstbuild.com'
 var firebase_password = 'snappy'
 var firebase_sandbox = 'https://mobius-firstbuild.firebaseio.com'
+//eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJkIjp7InVpZCI6Imdvb2dsZToxMDU3MjQzNDIxNDkwODcwMjAzNTEiLCJwcm92aWRlciI6Imdvb2dsZSJ9LCJpYXQiOjE0Mjk3OTU5ODJ9.hmqTRjR8cBA1pWVIZTuR-JXabNkLTT_IcnTSxSKWHJ0
 
 var Firebase = require('firebase');
 
